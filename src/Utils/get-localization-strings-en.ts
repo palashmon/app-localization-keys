@@ -1,0 +1,1 @@
+export const englishStrings = ["Welcome", "Username", "Password", "Sign In", "Sign Up", "Forgot Password"];
