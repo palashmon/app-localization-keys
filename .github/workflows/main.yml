@@ -20,6 +20,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - name: 📥 Download deps
-        run: npm install
+        run: npm install --legacy-peer-deps
       - name: 🧪 Run test script
         run: npm test
