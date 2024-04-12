@@ -21,5 +21,16 @@ jobs:
           cache: npm
       - name: 📥 Download deps
         run: npm install --legacy-peer-deps
-      - name: 🧪 Run test script
-        run: npm test
+
+  automerge:
+    name: Dependabot Auto-Merge
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+    steps:
+      - uses: fastify/github-action-merge-dependabot@v3
+        with:
+          github-token: ${{ github.token }}
+          target: minor
