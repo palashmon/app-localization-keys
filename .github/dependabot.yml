@@ -7,10 +7,10 @@ updates:
     open-pull-requests-limit: 10
     versioning-strategy: increase
     commit-message:
-      prefix: "chore"
+      prefix: "fix"
   - package-ecosystem: "github-actions"
     directory: "/"
     commit-message:
-      prefix: "chore"
+      prefix: "fix"
     schedule:
-      interval: "monthly"
+      interval: "daily"
