@@ -1,12 +1,6 @@
 name: Auto-approve Renovate's PRs
 
-on:
-  workflow_run:
-    workflows: [CI]
-    branches: [main]
-    types: [completed]
-
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+on: pull_request_target
 
 permissions:
   contents: write
