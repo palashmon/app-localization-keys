@@ -63,7 +63,7 @@ jobs:
 
       - name: Create Changelog
         id: changelog
-        uses: TriPSs/conventional-changelog-action@f04dac1fd07687cec8ea302937ca588b33786e98 # v5
+        uses: TriPSs/conventional-changelog-action@f04dac1fd07687cec8ea302937ca588b33786e98 # v5.2.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           git-user-name: "github-actions"
