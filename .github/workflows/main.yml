@@ -37,19 +37,6 @@ jobs:
       - name: 📥 Download deps
         run: npm install --legacy-peer-deps
 
-  automerge:
-    name: Dependabot Auto-Merge
-    needs: test
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: write
-    steps:
-      - uses: fastify/github-action-merge-dependabot@v3
-        with:
-          github-token: ${{ github.token }}
-          target: minor
-
   changelog:
     name: Changelog
     needs:
@@ -125,4 +112,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ needs.changelog.outputs.tag }}
           name: ${{ needs.changelog.outputs.tag }}
-          body: ${{ needs.changelog.outputs.clean_changelog }}          
+          body: ${{ needs.changelog.outputs.clean_changelog }}
