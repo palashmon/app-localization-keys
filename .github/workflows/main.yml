@@ -102,7 +102,7 @@ jobs:
 
       # Release info is now in the main so we can continue as before
       - name: Create Release
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@2c591bcc8ecdcd2db72b97d6147f871fcd833ba5 # v1
         with:
           draft: false
           makeLatest: true
