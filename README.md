@@ -1,4 +1,4 @@
-# Localization Keys
+# Localization Keys [![CI](https://github.com/palashmon/app-localization-keys/actions/workflows/main.yml/badge.svg)](https://github.com/palashmon/app-localization-keys/actions/workflows/main.yml)
 
 For multi-language support, generate concise and distinct keys for localization files or dictionaries. Using abbreviated keys produced by [`acronymer`](https://github.com/palashmon/acronymer) simplifies the localization process and ensures consistency across translations.
 
