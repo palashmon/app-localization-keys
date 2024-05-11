@@ -18,7 +18,7 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "acronymer": "^0.1.0",
+    "acronymer": "^1.0.0",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
