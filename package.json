@@ -18,7 +18,7 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "acronymer": "^1.0.0",
+    "acronymer": "^1.0.1",
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "nodemon": "3.1.0",
     "prettier": "3.2.5",
     "ts-jest": "29.1.2",
-    "tsx": "4.10.2",
+    "tsx": "4.10.4",
     "typescript": "5.4.5",
     "typescript-eslint-parser": "22.0.0"
   }
