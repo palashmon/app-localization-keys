@@ -18,7 +18,7 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "acronymer": "^1.0.1",
+    "acronymer": "^1.0.2",
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
@@ -26,7 +26,7 @@
     "@types/node": "20.17.12",
     "@typescript-eslint/eslint-plugin": "8.19.1",
     "@typescript-eslint/parser": "8.19.1",
-    "eslint": "9.17.0",
+    "eslint": "9.18.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
     "jest": "29.7.0",
@@ -34,7 +34,7 @@
     "prettier": "3.4.2",
     "ts-jest": "29.2.5",
     "tsx": "4.19.2",
-    "typescript": "5.7.2",
+    "typescript": "5.7.3",
     "typescript-eslint-parser": "22.0.0",
     "ts-node": "10.9.2"
   }
