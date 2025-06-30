@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "acronymer": "^1.0.2",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.6.1"
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
