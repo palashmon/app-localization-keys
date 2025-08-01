@@ -1,6 +1,6 @@
 {
   "name": "app-localization-keys",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "",
   "private": true,
   "main": "dist/src/index.js",
